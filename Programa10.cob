@@ -1,7 +1,7 @@
       ******************************************************************
-      * Author:
-      * Date:
-      * Purpose:
+      * Author: Joana maria luz de sá
+      * Date: 05/08 /2024
+      * Purpose: Comando de decisão IF
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
@@ -31,16 +31,16 @@
 
               IF WRK-ESTADO EQUAL "SP"
                   COMPUTE WRK-FRETE = WRK-VALOR *0,10
-                  COMPUTE WRK-VALORTOTAL = WRK-FRETE + WRK-VALOR
+
                   END-IF.
               IF WRK-ESTADO EQUAL "RJ"
                   COMPUTE WRK-FRETE = WRK-VALOR *0,15
-                  COMPUTE WRK-VALORTOTAL = WRK-FRETE + WRK-VALOR
+
                   END-IF.
               IF WRK-ESTADO EQUAL "SC"
                   COMPUTE WRK-FRETE = WRK-VALOR *0,20
-                  COMPUTE WRK-VALORTOTAL = WRK-FRETE + WRK-VALOR
                   END-IF.
+              COMPUTE WRK-VALORTOTAL = WRK-FRETE + WRK-VALOR.
          0300-MOSTRA SECTION.
               DISPLAY "O produto : " WRK-PRODUTO.
               DISPLAY "Valor do produto : " WRK-VALOR.
