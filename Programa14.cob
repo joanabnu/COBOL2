@@ -1,7 +1,7 @@
       ******************************************************************
       * Author:Joana Maria Luz de Sá
       * Date:04/12/2024
-      * Purpose:Comando de repetição
+      * Purpose:Comando de repetição PERFORM
       * Tectonics: cobc
       ******************************************************************
          IDENTIFICATION DIVISION.
