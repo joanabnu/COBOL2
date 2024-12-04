@@ -4,6 +4,8 @@
       * Purpose: Comando de decisão IF
       * Tectonics: cobc
       ******************************************************************
+
+
        IDENTIFICATION DIVISION.
        PROGRAM-ID. YOUR-PROGRAM-NAME.
        ENVIRONMENT DIVISION.
